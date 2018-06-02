@@ -1108,8 +1108,7 @@ impl_stable_hash_for!(struct hir::def::Export {
     ident,
     def,
     vis,
-    span,
-    is_import
+    span
 });
 
 impl<'a> HashStable<StableHashingContext<'a>>
